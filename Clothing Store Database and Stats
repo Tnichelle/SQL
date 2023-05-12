@@ -1,0 +1,26 @@
+----Create a clothing store database
+
+CREATE TABLE ClothingStore (id INTEGER PRIMARY KEY, name TEXT, quanity INTEGER, price INTEGER, aisle INTEGER);
+
+INSERT INTO Clothingstore VALUES (1, "tshirt", 2, 10.99, 4);
+INSERT INTO clothingstore VALUES (2, "sweater", 3, 15.99, 6);
+INSERT INTO Clothingstore VALUES (3, "jacket", 2, 25.99, 6);
+INSERT INTO clothingstore VALUES (4, "coat", 7, 39.99, 6);
+INSERT INTO Clothingstore VALUES (5, "jeans", 10, 19.99, 3);
+INSERT INTO Clothingstore VALUES (6, "socks", 15, 3.99, 8);
+INSERT INTO Clothingstore VALUES (7, "shorts", 6, 6.99, 3);
+INSERT INTO Clothingstore VALUES (8, "tracksuit", 10, 25.99, 4);
+INSERT INTO clothingstore VALUES (9, "vest", 5, 35.99, 6);
+INSERT INTO clothingstore VALUES (10, "pajamas", 9, 12.99, 8);
+INSERT INTO Clothingstore VALUES (11, "shoes", 10, 29.99, 1);
+INSERT INTO Clothingstore VALUES (12, "boots", 8, 49.99, 1);
+INSERT INTO Clothingstore VALUES (13, "raincoat", 3, 20.99, 6);
+INSERT INTO Clothingstore VALUES (14, "tanktop", 13, 5.99, 4);
+INSERT INTO Clothingstore VALUES (15, "swimsuit", 14, 9.99, 8);
+
+SELECT * FROM Clothingstore ORDER BY aisle;
+
+display the order by ordered by aisle.
+SELECT * FROM Clotingstore
+ORDER BY aisle;
+
